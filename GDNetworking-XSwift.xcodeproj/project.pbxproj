@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56165E6258345C50002ACEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56165E5258345C50002ACEC /* AppDelegate.swift */; };
+		B56165EA258345C50002ACEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56165E9258345C50002ACEC /* ViewController.swift */; };
+		B56165ED258345C50002ACEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56165EB258345C50002ACEC /* Main.storyboard */; };
+		B56165EF258345CD0002ACEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56165EE258345CD0002ACEC /* Assets.xcassets */; };
+		B56165FE258346520002ACEC /* GDBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56165FD258346520002ACEC /* GDBaseRequest.swift */; };
+		ED8D2BA76D972C04CD43753C /* Pods_GDNetworking_XSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C08214D4F46E0D9859727A3 /* Pods_GDNetworking_XSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FC07B4DEA9CA232A1B39256 /* Pods-GDNetworking-XSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDNetworking-XSwift.debug.xcconfig"; path = "Target Support Files/Pods-GDNetworking-XSwift/Pods-GDNetworking-XSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		5C08214D4F46E0D9859727A3 /* Pods_GDNetworking_XSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDNetworking_XSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A934B0784232B64EDCE3118A /* Pods-GDNetworking-XSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDNetworking-XSwift.release.xcconfig"; path = "Target Support Files/Pods-GDNetworking-XSwift/Pods-GDNetworking-XSwift.release.xcconfig"; sourceTree = "<group>"; };
+		B56165E2258345C50002ACEC /* GDNetworking-XSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDNetworking-XSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56165E5258345C50002ACEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B56165E9258345C50002ACEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B56165EC258345C50002ACEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56165EE258345CD0002ACEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B56165F3258345CD0002ACEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56165FD258346520002ACEC /* GDBaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDBaseRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56165DF258345C50002ACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8D2BA76D972C04CD43753C /* Pods_GDNetworking_XSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C1A906EACB2C1CD618AB9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FC07B4DEA9CA232A1B39256 /* Pods-GDNetworking-XSwift.debug.xcconfig */,
+				A934B0784232B64EDCE3118A /* Pods-GDNetworking-XSwift.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B56165D9258345C50002ACEC = {
+			isa = PBXGroup;
+			children = (
+				B56165E4258345C50002ACEC /* GDNetworking-XSwift */,
+				B56165E3258345C50002ACEC /* Products */,
+				41C1A906EACB2C1CD618AB9D /* Pods */,
+				C9EE5A5180C201A10622F244 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B56165E3258345C50002ACEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56165E2258345C50002ACEC /* GDNetworking-XSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56165E4258345C50002ACEC /* GDNetworking-XSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B56165FB258346230002ACEC /* GDNetworking */,
+				B56165E5258345C50002ACEC /* AppDelegate.swift */,
+				B56165E9258345C50002ACEC /* ViewController.swift */,
+				B56165EB258345C50002ACEC /* Main.storyboard */,
+				B56165EE258345CD0002ACEC /* Assets.xcassets */,
+				B56165F3258345CD0002ACEC /* Info.plist */,
+			);
+			path = "GDNetworking-XSwift";
+			sourceTree = "<group>";
+		};
+		B56165FB258346230002ACEC /* GDNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B56165FD258346520002ACEC /* GDBaseRequest.swift */,
+			);
+			path = GDNetworking;
+			sourceTree = "<group>";
+		};
+		C9EE5A5180C201A10622F244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C08214D4F46E0D9859727A3 /* Pods_GDNetworking_XSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56165E1258345C50002ACEC /* GDNetworking-XSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56165F6258345CD0002ACEC /* Build configuration list for PBXNativeTarget "GDNetworking-XSwift" */;
+			buildPhases = (
+				F373E06543F3E85209284075 /* [CP] Check Pods Manifest.lock */,
+				B56165DE258345C50002ACEC /* Sources */,
+				B56165DF258345C50002ACEC /* Frameworks */,
+				B56165E0258345C50002ACEC /* Resources */,
+				F725495B7A2068EB3B8A47D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GDNetworking-XSwift";
+			productName = "GDNetworking-XSwift";
+			productReference = B56165E2258345C50002ACEC /* GDNetworking-XSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56165DA258345C50002ACEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B56165E1258345C50002ACEC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = B56165DD258345C50002ACEC /* Build configuration list for PBXProject "GDNetworking-XSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B56165D9258345C50002ACEC;
+			productRefGroup = B56165E3258345C50002ACEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56165E1258345C50002ACEC /* GDNetworking-XSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56165E0258345C50002ACEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56165EF258345CD0002ACEC /* Assets.xcassets in Resources */,
+				B56165ED258345C50002ACEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F373E06543F3E85209284075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GDNetworking-XSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F725495B7A2068EB3B8A47D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GDNetworking-XSwift/Pods-GDNetworking-XSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GDNetworking-XSwift/Pods-GDNetworking-XSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GDNetworking-XSwift/Pods-GDNetworking-XSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56165DE258345C50002ACEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56165EA258345C50002ACEC /* ViewController.swift in Sources */,
+				B56165E6258345C50002ACEC /* AppDelegate.swift in Sources */,
+				B56165FE258346520002ACEC /* GDBaseRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B56165EB258345C50002ACEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56165EC258345C50002ACEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B56165F4258345CD0002ACEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B56165F5258345CD0002ACEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56165F7258345CD0002ACEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC07B4DEA9CA232A1B39256 /* Pods-GDNetworking-XSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GDNetworking-XSwift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YY.GDNetworking-XSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B56165F8258345CD0002ACEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A934B0784232B64EDCE3118A /* Pods-GDNetworking-XSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GDNetworking-XSwift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YY.GDNetworking-XSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56165DD258345C50002ACEC /* Build configuration list for PBXProject "GDNetworking-XSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56165F4258345CD0002ACEC /* Debug */,
+				B56165F5258345CD0002ACEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56165F6258345CD0002ACEC /* Build configuration list for PBXNativeTarget "GDNetworking-XSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56165F7258345CD0002ACEC /* Debug */,
+				B56165F8258345CD0002ACEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B56165DA258345C50002ACEC /* Project object */;
+}
